@@ -5,7 +5,7 @@ import getpass
 from passlib.hash import bcrypt
 from random import shuffle
 
-parser = argparse.ArgumentParser(description='Password Trainer, Marek Mateusz Narozniak', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+parser = argparse.ArgumentParser(description='Pyssword, Marek Mateusz Narozniak', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('--add', nargs=1, metavar=('label'), type=str, default=None, help='add new password')
 parser.add_argument('--remove', nargs=1, metavar=('label'), type=str, default=None, help='remove password')
 parser.add_argument('--test', action='store_true', help='test your memory')
